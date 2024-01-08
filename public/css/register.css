@@ -1,0 +1,52 @@
+/*Register*/
+
+.form-password {
+    position: relative;
+  }
+
+  .hidePass {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+
+  .whenPassError {
+    top: 35% !important;
+  }
+
+  .showPass,
+  .hidePass {
+    transition: .2s ease-in-out;
+    color: #343A40;
+    cursor: pointer;
+    font-size: 22px;
+    position: absolute;
+    z-index: 9999;
+    right: 28px;
+    top: 65%;
+    transform: translateY(-50%);
+  }
+
+  .bg {
+    background-image: url('img/bg.avif');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .btn-submit {
+    border: 1px #14B6A8;
+    background-color: #14B8A6;
+    color: #ffffff
+  }
+  .btn-submit:hover {
+    background-color: #14B8C6;
+    color: #ffffff
+  }
+
+  .bck {
+    background-color: #14B6A8;
+
+  }
+  .bck:hover {
+    background-color: #14B8C6;
+  }
